@@ -1,3 +1,83 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+:root {
+  --brand-color: #2f303a;
+}
 .background {
-  background-color: #2f303a;
+  background-color: var(--brand-color);
+}
+.navy-links .link:hover,
+.navy-links .link:focus {
+  color: #2196f3;
+}
+.contact-links .link {
+  color: #757575;
+}
+.contact-links .link:hover,
+.contact-links .link:focus {
+  color: #2196f3;
+}
+.button {
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.slogan {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #ffffff;
+  text-align: center;
+}
+.text-table .text-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.text-table .text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.section-titles {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.photos-description .name {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.photos-description .profession {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
 }
